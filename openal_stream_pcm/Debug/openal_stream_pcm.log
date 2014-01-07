@@ -1,0 +1,28 @@
+﻿生成启动时间为 2014/1/6 18:24:47。
+     1>项目“D:\音频渲染\audio program\openal_pcm\openal_stream_pcm\openal_stream_pcm.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\openal_stream_pcm.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Boost /ID:\log4cppSDK\include /I"C:\Program Files\VideoLAN\VLC\sdk\include" /IC:\twolame_sdk\include /IC:\ffmpegsdk\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt pcm_stream.cpp
+         pcm_stream.cpp
+     1>d:\音频渲染\audio program\openal_pcm\openal_stream_pcm\pcm_stream.cpp(231): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\音频渲染\audio program\openal_pcm\Debug\openal_stream_pcm.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Boost\stage\lib /LIBPATH:D:\log4cppSDK\lib /LIBPATH:"C:\Program Files\VideoLAN\VLC\sdk\lib" /LIBPATH:C:\twolame_sdk\lib /LIBPATH:C:\ffmpegsdk\lib libvlc.lib libvlccore.lib libtwolame_dll.lib twolame_staticD.lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib AssetsManagerTest.lib CrystalCraze.lib glew32.lib libBox2D.lib libchipmunk.lib libcocos2d.lib libCocosDenshion.lib libcurl_imp.lib libExtensions.lib libiconv.lib libjpeg.lib libJSBinding.lib liblua.lib libtiff.lib libwebp.lib libzlib.lib lua51.lib MoonWarriors.lib mozjs.lib pthreadVCE2.lib sqlite3.lib TestJavascript.lib WatermelonWithMe.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\openal_stream_pcm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\音频渲染\audio program\openal_pcm\Debug\openal_stream_pcm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\音频渲染\audio program\openal_pcm\Debug\openal_stream_pcm.lib" /MACHINE:X86 Debug\openal_stream_pcm.exe.embed.manifest.res
+         Debug\pcm_stream.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\openal_stream_pcm.exe.embed.manifest" /manifest Debug\openal_stream_pcm.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         openal_stream_pcm.vcxproj -> D:\音频渲染\audio program\openal_pcm\Debug\openal_stream_pcm.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\openal_stream_pcm.unsuccessfulbuild”。
+         正在对“Debug\openal_stream_pcm.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\音频渲染\audio program\openal_pcm\openal_stream_pcm\openal_stream_pcm.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.64

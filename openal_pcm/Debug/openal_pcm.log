@@ -1,0 +1,12 @@
+﻿生成启动时间为 2014/1/6 9:34:10。
+     1>项目“D:\音频渲染\audio program\openal_pcm\openal_pcm\openal_pcm.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Boost /ID:\log4cppSDK\include /I"C:\Program Files\VideoLAN\VLC\sdk\include" /IC:\twolame_sdk\include /IC:\ffmpegsdk\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt pcm_play.cpp
+         pcm_play.cpp
+     1>d:\音频渲染\audio program\openal_pcm\openal_pcm\pcm_play.cpp(231): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>已完成生成项目“D:\音频渲染\audio program\openal_pcm\openal_pcm\openal_pcm.vcxproj”(ClCompile 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.77
